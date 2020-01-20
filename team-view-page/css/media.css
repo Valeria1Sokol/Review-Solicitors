@@ -1,0 +1,362 @@
+@media all and (max-width:1600px) {
+    .teamAll {
+        margin: 0 30px 0 25px;
+        width: 76%;
+    }
+
+    .teamLead {
+        margin: 0px 20px 0 25px;
+    }
+
+    .teamAll .divider {
+        margin: 40px 28px;
+    }
+}
+
+@media all and (max-width:1440px) {
+    .teamAll .divider:nth-child(8) {
+        display: block;
+    }
+
+    .teamAll .divider:nth-child(3n) {
+        display: none;
+    }
+
+    .allUnassigned {
+        width: 100%;
+    }
+
+    .allUnassigned .divider:nth-child(3n) {
+        display: block;
+    }
+
+    .allUnassigned .divider:nth-child(8) {
+        display: none;
+    }
+
+    .chapterDivider {
+        width: 50%;
+    }
+
+    .createTeam,
+    .assignTeamLead {
+        left: 36%;
+    }
+}
+
+@media all and (max-width:1300px) {
+    .container {
+        padding: 50px 35px;
+    }
+
+    .createTeam {
+        left: 35%;
+    }
+
+    .teamSrc .add {
+        position: absolute;
+        right: 151px;
+        cursor: pointer;
+    }
+}
+
+@media all and (max-width:1024px) {
+    .container {
+        padding: 30px 25px;
+    }
+
+    .generate .teamChapter {
+        padding: 15px 20px;
+    }
+
+    .chapter h1 {
+        font-size: 18px;
+    }
+
+    .chapter .text p {
+        font-size: 16px;
+    }
+
+    .teamSrc p {
+        font-size: 12px;
+    }
+
+    .teamSrc input {
+        font-size: 12px;
+        width: 124px;
+    }
+
+    .teamSrc .add {
+        right: 125px;
+    }
+
+    .chapterDivider {
+        width: 40%;
+    }
+
+    .generate .teamChapter h1 {
+        font-size: 16px !important;
+    }
+
+    .generate .teamChapter p {
+        font-size: 14px;
+    }
+
+    .teamLead {
+        width: 300px;
+    }
+
+    .teamAll .divider:nth-child(3n) {
+        display: block;
+    }
+
+    .teamAll .n2 {
+        display: none !important;
+    }
+
+    .allUnassigned .divider:nth-child(8) {
+        display: block;
+    }
+
+    .createTeam,
+    .assignTeamLead {
+        left: 29%;
+    }
+
+    .text img {
+        margin: 0 8px;
+        width: 15px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .teamSrc p {
+        font-size: 16px;
+        color: #a1a1a1;
+        cursor: pointer;
+        padding: 0 6px 0 0;
+        font-weight: normal;
+    }
+
+    .createTeam,
+    .assignTeamLead {
+        left: 20%;
+    }
+
+    .chapter h1 {
+        font-size: 14px;
+    }
+
+    .teamSrc p {
+        font-size: 10px;
+    }
+
+    .text img {
+        margin: 0px 7px;
+        width: 10px;
+    }
+
+    .chapter .text p {
+        font-size: 12px;
+    }
+
+    .teamSrc input {
+        font-size: 11px;
+        width: 109px;
+        margin-left: 9px;
+    }
+
+    .teamSrc .add {
+        right: 104px;
+    }
+
+    .generate .teamChapter h1 {
+        font-size: 14px !important;
+    }
+
+    .generate .teamChapter p {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 25px 15px;
+    }
+
+    .teamAll {
+        justify-content: center;
+    }
+
+    .teamAll .divider {
+        display: none !important;
+    }
+
+    .teamLead {
+        width: 366px;
+    }
+
+    .allUnassigned .divider {
+        display: block !important;
+    }
+
+    .container {
+        padding: 25px 15px;
+    }
+}
+
+@media all and (max-width:425px) {
+    .teamSrc {
+
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chapter {
+
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text {
+        margin: 0 0 15px;
+    }
+
+    .mob {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px;
+    }
+
+    .teamSrc input {
+
+        margin-left: 0px;
+    }
+
+    .teamSrc .add {
+        left: 22px;
+        width: 15px;
+    }
+
+    .chapterDivider {
+        display: none;
+    }
+
+    .generate .teamChapter {
+        padding: 15px 10px;
+    }
+
+    .generate .teamChapter p {
+        font-size: 10px;
+    }
+
+    .teamLead {
+        width: 270px;
+        margin: 0;
+    }
+
+    .teamLead .sectionIcon img:first-of-type {
+        margin: 0 68px 0 0;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .teamAll {
+        margin: 20px 0 0px;
+    }
+
+    .noLead img {
+        margin: 0 !important;
+    }
+
+    .allUnassigned .divider {
+        display: none !important;
+    }
+
+    .createTeam,
+    .assignTeamLead {
+        left: 5%;
+    }
+
+    .createTeam {
+
+        max-width: 85%;
+        padding: 10px;
+        height: 300px;
+    }
+
+    .assignTeamLead {
+        max-width: 85%;
+        padding: 10px;
+        height: 400px;
+    }
+
+    .solisInfo {
+        border: 5px solid #e5f7ee;
+        padding: 17px;
+    }
+
+    .solisInfo h2 {
+        margin: 15px 0 5px;
+    }
+
+    .solisInfo input[type=button] {
+
+        margin-top: 15px;
+    }
+
+    .ngdialog-close,
+    .assign-close {
+        height: 20px;
+        width: 20px;
+        right: -7%;
+        top: -10%;
+        background-size: contain;
+    }
+
+}
+
+@media all and (max-width:375px) {
+
+    .solisInfo input[type=text],
+    .solisInfo select {
+        width: 255px;
+    }
+
+    .teamSrc p {
+        font-size: 9px;
+    }
+}
+
+@media all and (max-width:320px) {
+    .teamSrc p {
+        font-size: 9px;
+        padding: 0 2px 0 0;
+    }
+
+    .container {
+        padding: 25px 9px;
+    }
+
+    .teamSrc .add {
+        left: 16px;
+    }
+
+    .solisInfo input[type=text],
+    .solisInfo select {
+        width: 208px;
+    }
+
+    .solisInfo h1 {
+        font-size: 18px;
+    }
+
+    .solisInfo h2 {
+        font-size: 14px;
+    }
+}

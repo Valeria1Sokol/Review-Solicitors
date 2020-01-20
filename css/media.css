@@ -1,0 +1,269 @@
+@media all and (max-width: 1920px) {
+    .sliderBox {
+        height: 680px;
+    }
+
+    .typesOfClient p {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 1600px) {
+    .icon .line {
+        margin-top: 6vw;
+    }
+
+    .benefitsSection {
+        padding: 0 3vw 65px 0;
+    }
+
+
+    .benefitsImg {
+        width: 900px;
+    }
+
+    .bText p {
+        font-size: 22px;
+    }
+
+    .benefitsText .lineSmall {
+        width: 503px;
+    }
+
+    .numbers,
+    .placeNumbers {
+        padding: 0 15vw;
+    }
+}
+
+@media all and (max-width: 1440px) {
+
+
+    .sliderBox {
+        height: 500px;
+    }
+
+    .icon .line {
+        margin-top: 7vw;
+    }
+
+    .uniqueImg img {
+        width: 523px;
+        height: 405px;
+    }
+
+    .sliderText {
+        top: -24vw;
+    }
+
+    .sliderText input {
+        position: relative;
+        top: -2vw;
+    }
+
+    .benefitsImg {
+        width: 785px;
+    }
+    .imgPh {
+        height: 82.7vw;
+    }
+
+    .business,
+    .personal,
+    .conveyancing,
+    .clinical {
+        height: 36vw;
+    }
+
+    .personal {
+        margin-top: 4.5vw;
+    }
+
+    .clinical {
+        margin: 30vw 0 0 11.5vw;
+    }
+
+    .numbers,
+    .placeNumbers {
+        padding: 0 9vw;
+    }
+
+}
+
+@media all and (max-width:1280px) {
+    .sliderText input {
+        width: 28.4vw;
+    }
+
+    .benefitsImg {
+        width: 646px;
+        height: 713px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .benefitsSection {
+        padding: 0px 1vw 65px 0;
+    }
+
+    .numbers,
+    .placeNumbers {
+        padding: 0 3vw;
+    }
+
+    footer .container {
+        width: 82%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col-sm-4 {
+        width: 31.333333%;
+    }
+}
+
+@media all and (max-width: 1024px) {
+
+    .sliderBox {
+        height: 350px;
+    }
+
+    .iconBox img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .iconBox p {
+        font-size: 15px;
+    }
+
+    .icon .line {
+        margin-top: 6vw;
+        width: 3vw;
+        height: 0.3vw;
+    }
+
+    .iconBox {
+        width: 170px;
+    }
+
+    .numSection .col-md {
+        margin: 0 15px;
+    }
+    .benefitsImg {
+        height: 513px;
+        width: 464px;
+    }
+
+    .benefitsSection {
+        padding: 0px 6vw 65px 0;
+    }
+
+    .bText {
+        width: auto;
+    }
+
+    .sliderText {
+        top: -24vw;
+    }
+
+    .sliderText input {
+        width: 270px;
+        height: 33px;
+        font-size: 12px;
+        position: relative;
+        top: -4vw;
+    }
+
+    .sliderText p {
+        font-size: 17px;
+    }
+
+    .sliderText h1 {
+        font-size: 50px;
+    }
+
+    .pageTwo h1 {
+        padding: 65px 0vw 35px;
+        font-size: 35px;
+    }
+
+    .uniqueImg img {
+        width: 430px;
+        height: 330px;
+    }
+
+    .unique {
+        padding: 15px 0;
+
+    }
+
+
+    .places .col-md .imgTree {
+        margin-top: 4vw;
+    }
+
+    .typesOfClient p {
+        font-size: 24px;
+    }
+
+    .business {
+        margin: 18vw 11vw 0 0;
+    }
+
+    .clinical {
+        margin: 32vw 0 0 12vw;
+    }
+
+    .conveyancing {
+        margin-top: 11vw;
+        padding-left: 1vw;
+    }
+
+    .personal {
+        padding-left: 1.3vw;
+        margin-top: 6vw;
+    }
+
+
+    .bText p {
+        font-size: 18px;
+    }
+
+    .benefitsText .lineSmall {
+        width: 425px;
+        margin: 25px 0;
+    }
+
+    .bText img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .numSection .numbers h1 {
+        font-size: 80.29px;
+    }
+
+    .numSection p {
+
+        font-size: 1.9vw;
+    }
+
+    .numSection .numbers p {
+    font-size: 20px;
+}
+    .places .col-md p {
+    font-size: 20px;
+}
+    .places .col-md {
+    width: 290px;
+        height: fit-content;
+}
+    .start p {
+    font-size: 2vw;
+}
+
+
+}

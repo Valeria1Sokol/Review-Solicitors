@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+body {
+/*    background-color: white;*/
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.container h1 {
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.container p span {
+    color: #00a549;
+}
+
+.container p {
+    font-size: 16px;
+    margin: 30px 0 40px;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.generate h1 {
+    background-color: #00a549;
+    width: 100%;
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 22px !important;
+    padding: 15px 35px;
+}
+
+.generate {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.allParam {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+}
+
+.clientInfo {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px dotted #ebebeb;
+    padding: 0 35px;
+}
+
+.clientInfo form {
+    margin: 0 0 20px;
+}
+
+.clientInfo form p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 10px;
+}
+
+.clientInfo form input,
+.clientInfo form select {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    outline: none;
+    padding: 0 15px;
+    color: #333;
+}
+
+textarea[placeholder]::-webkit-input-placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+textarea[placeholder]::-moz-placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+textarea[placeholder]:-moz-placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+textarea[placeholder]:-ms-input-placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+input[placeholder]::-webkit-input-placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+input[placeholder]::-moz-placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+input[placeholder]:-moz-placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+input[placeholder]:-ms-input-placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+.clientInfo form p span {
+    color: #aeaeae;
+    font-size: 12px;
+}
+
+.clientInfo form select {
+    cursor: pointer;
+    color: #aeaeae;
+}
+
+.form5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.form5 form input {
+    width: 220px;
+}
+
+.form5 form input[type=button] {
+    background-color: #7d95a3;
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form5 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.clientInfo form textarea {
+    width: 300px;
+    height: 85px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    outline: none;
+    padding: 15px;
+    color: #333;
+}
+
+.notes {
+    color: #aeaeae;
+    font-size: 13px !important;
+    font-weight: lighter !important;
+    font-style: italic;
+    width: 300px;
+}
+
+.clientInfo a {
+    color: #01af55;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.clientInfo form:last-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#submit {
+    background-color: #01af55;
+    color: white;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.base {
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px;
+}
+
+.base .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 20px;
+}
+
+.base .title p {
+    margin: 0;
+    font-weight: bold;
+    padding: 0 0 0 5px;
+}
+
+.base .title .circle {
+    width: 10px !important;
+    height: 10px;
+    background-color: #01af55;
+    border-radius: 50%;
+}
+
+.base .title div {
+    display: flex;
+    align-items: center;
+}
+
+.base .title select {
+    border: none;
+    outline: none;
+    color: #aeaeae;
+    cursor: pointer
+}
+
+#firstLine {
+    color: #01af55;
+    font-size: 17px;
+    font-weight: bold;
+    border-top: 2px solid #eef1f0;
+    vertical-align: top;
+}
+
+#firstLine .cl4 {
+    display: table-cell;
+}
+
+table {
+    border-spacing: 0;
+    width: 110%;
+}
+
+table tr {
+
+    border-top: 2px solid #eef1f0;
+    color: black;
+    font-size: 15px;
+
+}
+
+table tr td {
+    padding: 0 1vw;
+}
+
+.cl1 {
+
+    border-top: 1px solid #eef1f0;
+    font-weight: bold;
+}
+
+.cl2 {
+
+    border-top: 1px solid #eef1f0;
+    font-weight: bold;
+}
+
+.cl3 {
+
+    border-top: 1px solid #eef1f0;
+    font-weight: bold;
+}
+
+.cl4 {
+
+    border-top: 1px solid #eef1f0;
+    display: flex;
+    color: #01af55;
+    align-items: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.cl5 {
+
+    border-top: 1px solid #eef1f0;
+    font-weight: bold;
+}
+
+.cl6 {
+
+    border-top: 1px solid #eef1f0;
+}
+
+@media all and (max-width:1600px) {
+    .base {
+        padding: 0 35px 0 15px;
+        width: 100%;
+    }
+
+    table tr td {
+        padding: 0 0.5vw;
+    }
+
+    table {
+        width: 101%;
+    }
+}
+
+@media all and (max-width:1440px) {
+
+    .clientInfo form input,
+    .clientInfo form select {
+        width: 280px;
+    }
+
+    .form5 form input {
+        width: 200px;
+    }
+
+    .clientInfo form textarea {
+        width: 280px;
+    }
+
+    .notes {
+        width: 280px;
+    }
+
+    #firstLine {
+        font-size: 14px;
+    }
+
+    table tr {
+        font-size: 13px;
+    }
+
+}
+
+@media all and (max-width:1024px) {
+
+    .clientInfo form input,
+    .clientInfo form select {
+        width: 200px;
+    }
+
+    .form5 form input {
+        width: 120px;
+    }
+
+    .clientInfo form textarea {
+        width: 200px;
+    }
+
+    .notes {
+        width: 200px;
+    }
+
+    .clientInfo {
+        padding: 0 15px;
+    }
+
+    .base {
+        padding: 0 15px;
+    }
+
+
+    .container {
+        padding: 40px 30px;
+    }
+
+    .form5 form input[type=button] {
+        font-size: 9.5px;
+    }
+
+    #submit {
+        width: 100px;
+    }
+
+    .clientInfo a {
+        font-size: 12px;
+    }
+
+
+    .img {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .clientInfo form input {
+
+        padding: 0 10px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .cl4 {
+        width: 120px;
+    }
+
+    .cl4 img {
+        width: 12px;
+    }
+
+    table tr {
+        font-size: 11px;
+    }
+
+    .cl6 img {
+        width: 25px;
+    }
+
+    #firstLine {
+        font-size: 12px;
+    }
+
+    table tr td {
+        padding: 0 1vw;
+    }
+}
+
+@media all and (max-width:425px) {
+    .allParam {
+
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .clientInfo form input,
+    .clientInfo form select {
+        width: 100%;
+    }
+
+    .clientInfo {
+        padding: 0 30px;
+    }
+
+    .img {
+
+        width: 30%;
+    }
+
+    .clientInfo form:last-of-type {
+
+        width: 70%;
+    }
+
+    .clientInfo form p {
+
+        width: 100%;
+    }
+
+    .clientInfo form textarea {
+        width: 100%;
+    }
+
+    .base {
+        padding: 30px 15px;
+    }
+
+    #firstLine {
+        font-size: 11px;
+    }
+
+    table tr {
+        font-size: 10px;
+    }
+
+    .cl4 {
+        width: 80px;
+    }
+
+    .container h1 {
+        font-size: 22px;
+    }
+
+    .container p {
+        font-size: 13px;
+    }
+
+    #submit {
+
+        font-size: 13px;
+    }
+
+
+    .generate h1 {
+        font-size: 18px !important;
+    }
+
+    .base {
+        padding: 30px 9px;
+    }
+
+}
+
+@media all and (max-width:375px) {
+    #firstLine {
+        font-size: 10px;
+    }
+
+    .container {
+        padding: 120px 15px !important;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .clientInfo {
+        padding: 0 20px;
+    }
+
+ .cl3 {
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 30px;
+    }
+    .cl4, #firstLine .cl4
+    {
+        display: none;
+    }
+    
+}

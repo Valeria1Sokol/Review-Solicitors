@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Review Solicitors</title>
+    <link rel="stylesheet" href="styleGenerateLink.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href='../css/header_footer.css' rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,500i,700,800,900" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+   <header>
+            <nav class="menu">
+                <div> <a href="/index.html">Home</a><a href="/homePage/index.html">Find a solicitor</a> <a href="/GenerateSingleLink/index.html">Single Link</a> <a href="/Team-leader-/index.html">Team Leader</a> <a href="/team-view-page/index.html">Team Page</a> </div>
+                <div> <a href="#">Register</a> <a href="#">Sing in</a> </div>
+            </nav>
+        </header>
+        <header>
+            <div class="menu-icon"><span></span></div>
+            <div class="img-header"> <img src="img/logo.png" alt="Solicitor" class="solisLogo"> </div>
+        </header>
+    <div class="containerBox">
+        <div class="container">
+            <h1>Generate a single client link</h1>
+            <p>If you would personally like to ask clients to provide a review, rather than have <span>ReviewSolicitors</span> email the client you can do so here. Simply provide the client details and you will generate a link that you can personally email to the client.
+                <br>These requests can be personalised</p>
+            <div class='generate'>
+                <h1>Generate a single client link</h1>
+                <div class="allParam">
+                    <div class="clientInfo">
+                        <form>
+                            <p>Client's first name</p>
+                            <input type="text" placeholder="Enter first name">
+                        </form>
+                        <form>
+                            <p>Client's surname</p>
+                            <input type="text" placeholder="Enter surname">
+                        </form>
+                        <form>
+                            <p>Client's email address</p>
+                            <input type="text" placeholder="Enter email">
+                        </form>
+                        <form>
+                            <p>Matter type <span>(optional)</span></p>
+                            <select>
+                                <option>Option1</option>
+                                <option>Option1</option>
+                                <option>Option1</option>
+                            </select>
+                        </form>
+                        <div class="form5">
+                            <div class="img"><img src="img/avatar.png"></div>
+                            <form>
+                                <p>Solicitor involved <span>(optional)</span></p>
+                                <input type="text" placeholder="Start typing solicitors name">
+                                <input type="button" value="Add another solicitor">
+                            </form>
+                        </div>
+                        <form>
+                            <p>Add a personal message <span>(optional)</span></p>
+                            <p class="notes">This message will be included in the questionnaire</p>
+                            <textarea placeholder="Add a personal message"></textarea>
+                        </form>
+                        <form>
+                            <p>Add a personal reference <span>(not seen by the client)</span></p>
+                            <p class="notes">This is used to help track each email in the history table on the right hand side</p>
+                            <input type="text" placeholder="e.g client 10234 or Miss D.Jones l">
+                        </form>
+                        <form> <a href="">Preview email</a>
+                            <input type="button" id="submit" value="Submit"> </form>
+                    </div>
+                    <div class="base">
+                        <div class="title">
+                            <div>
+                                <div class='circle'></div>
+                                <p>Sent email status</p>
+                            </div>
+                            <select>
+                                <option>Select Month</option>
+                                <option>option1</option>
+                                <option>option1</option>
+                            </select>
+                        </div>
+                        <table>
+                            <tr id="firstLine">
+                                <td class="cl1">No</td>
+                                <td class="cl2">Your reference</td>
+                                <td class="cl3">Link created</td>
+                                <td class="cl4">Link</td>
+                                <td class="cl5">Link first clicked by client</td>
+                                <td class="cl6">Review left</td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">1</td>
+                                <td class="cl2">Mrs D. Jones</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">2</td>
+                                <td class="cl2">Mr J. Smith</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">3</td>
+                                <td class="cl2">Mr C. Parker</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019t</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">4</td>
+                                <td class="cl2">Mr H. Kelly</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">5</td>
+                                <td class="cl2">Mrs J. Jones</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">6</td>
+                                <td class="cl2">Mrs L. Robinson</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">7</td>
+                                <td class="cl2">Mrs V. King</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">8</td>
+                                <td class="cl2">Mr D. Thompson</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">9</td>
+                                <td class="cl2">Mrs J. Hughes</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">10</td>
+                                <td class="cl2">Mr M. Alexander</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                            <tr>
+                                <td class="cl1">11</td>
+                                <td class="cl2">Mr E. Sanchez</td>
+                                <td class="cl3">01/01/2019</td>
+                                <td class="cl4"><img src="img/link.png">https://www.reviewsolicitors.co.uk/review/ABClaw/38475</td>
+                                <td class="cl5">01/05/2019</td>
+                                <td class="cl6"><img src="img/review.png"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <footer id="footer">
+        <div class="footer-copy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="footer-logo"></span>
+                        ReviewSolicitors | Nicholson House | Nicholson Walk | Maidenhead | Berkshire | SL6 1LD | 0333 577 0206
+                    </div>
+                    <div class="col-sm-4 footer-rs-site-links">
+                        <a href="https://www.reviewsolicitors.ie/" target="_blank" class="footer-copy">ReviewSolicitors Ireland</a> | <a href="https://www.reviewsolicitors.com.au/" target="_blank" class="footer-copy">ReviewSolicitors Australia</a>
+                    </div>
+                    <div class="col-sm-2">
+                        <nav class="social-nav">
+                            <a href="https://www.facebook.com/reviewsolicitors/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/ReviewSolicitor" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/reviewsolicitors" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body></html>

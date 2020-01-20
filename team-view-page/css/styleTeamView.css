@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.chapter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+.chapter h1 {
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.chapter .text p {
+    color: #00a549;
+    font-size: 22px;
+    text-decoration: underline;
+    cursor: pointer;
+    /*    font-weight: 600;*/
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text img {
+    margin: 0 22px;
+}
+
+.teamSrc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamSrc p {
+    font-size: 16px;
+    color: #a1a1a1;
+    cursor: pointer;
+    padding: 0 10px 0 0;
+    font-weight: normal;
+}
+
+.teamSrc input {
+    background-color: #00a549;
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    margin-left: 30px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.teamSrc .add {
+    position: absolute;
+    right: 165px;
+    cursor: pointer;
+}
+
+.generate .teamChapter {
+    background-color: #00a549;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 15px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 30px;
+}
+
+.generate .teamChapter div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate .teamChapter div img {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.generate .teamChapter h1 {
+    color: white;
+    font-size: 19px !important;
+}
+
+.generate .teamChapter p {
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.teamLead,
+.teamInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 22px 23px;
+    border: 1px solid #ddefeb;
+    border-radius: 5px;
+    margin: 0 20px 0 40px;
+}
+
+.teamLead {
+    width: 255px;
+}
+
+.teamLead .sectionIcon {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 10px;
+    width: 100%;
+}
+
+
+.teamLead .sectionIcon img:nth-child(2n) {
+    cursor: pointer;
+}
+
+.teamLead .sectionIcon img:first-of-type {
+    margin: 0 53px 0 0;
+}
+
+.teamLead .sectionIcon img:last-of-type {
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+.teamLead .photoLead,
+.teamInfo .photoLead {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 165px;
+    border-radius: 5px;
+}
+
+.teamLead .name,
+.teamLead .job,
+.teamInfo .name {
+    width: 100%;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.teamLead .name,
+.teamInfo .name {
+    background-color: #00a549;
+    padding: 6px 0;
+    margin: 10px 0 5px;
+    letter-spacing: 2px;
+}
+
+.teamLead .job {
+    background-color: #ff7043;
+    padding: 4px 0;
+    margin: 0 0 22px;
+    letter-spacing: 2px;
+}
+
+.teamLead p,
+.teamInfo p {
+    text-align: left;
+    width: 100%;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.teamLead p span,
+.teamInfo p span {
+    color: #aeaeae;
+}
+
+.teamAll {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 40px 0 30px;
+    flex-direction: row;
+    width: 74%;
+}
+
+.teamInfo {
+    width: 233px;
+    padding: 17px 22px 23px;
+    margin: 0 0 22px;
+}
+
+.teamInfo .name {
+    background-color: #28313a;
+    margin: 10px 0 16px;
+}
+
+.generate {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.teamAll .divider {
+    margin: 40px 30px;
+    height: 215px;
+}
+
+.teamAll .divider:nth-child(9) {
+    display: none;
+}
+
+.teamAll .divider:nth-child(8) {
+    display: none;
+}
+
+.divider {
+    margin: 32px 0;
+}
+
+.chapterDivider {
+    width: 60%;
+}
+
+.noLead {
+    justify-content: center!important;
+}
+
+.notes {
+    padding: 15px 0;
+}
+
+.assign {
+    background-color: #7d95a3;
+    color: white;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.allUnassigned
+{
+    width: 100%;
+}
+.allUnassigned .divider:nth-child(8)
+{
+    display: block;
+}
+.createTeam, .assignTeamLead {
+    -webkit-animation: ngdialog-flyin .5s;
+    animation: ngdialog-flyin .5s;
+    background: white;
+    border-radius: 5px;
+    color: #85939f;
+    font-size: 1.1em;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+    position: absolute;
+    z-index: 1000;
+    left: 37%;
+    top: -60%;
+    transition: all 0.5s;
+    width: 475px;
+    height: 370px;
+}
+.assignTeamLead
+{
+    height: 440px;
+}
+.solisInfo
+{
+    border: 9px solid #e5f7ee;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px 40px;
+}
+.solisInfo h1
+{
+    font-size: 19px;
+    color: #4a524e;
+}
+.solisInfo p
+{
+    font-size: 14px;
+    color: #aeaeae;
+    margin-top: 30px;
+}
+.solisInfo p a
+{
+    
+    color: #00af54;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.solisInfo h2
+{
+    font-size: 15px;
+    color: #333333;
+    margin: 25px 0 5px;
+}
+.solisInfo input[type=text], .solisInfo select
+{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #aeaeae;
+    text-align: left;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.solisInfo select
+{
+    height: 30px!important;
+}
+.solisInfo input[type=text]::-webkit-input-placeholder
+{
+    font-size: 14px;
+    color: #cccccc;
+}
+.solisInfo select:required:invalid {
+  color: #cccccc;
+    font-size: 14px;
+}
+option {
+  color: black;
+}
+.solisInfo input[type=button]
+{
+    width: 125px;
+    height: 30px;
+    border:none;
+    outline: none;
+    background-color: #00af54;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 27px;
+}
+.shadow
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.ngdialog-close, .assign-close
+{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+   right: -12%;
+    top: -15%;
+    background-image: url(../img/ic-close.png);
+    cursor: pointer;
+}
+.mob
+{
+    display: flex;
+    align-items: center;
+}
+

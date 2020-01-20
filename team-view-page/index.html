@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Review Solicitors</title>
+
+    <link rel="stylesheet" href="/css/header_footer.css">
+    <link rel="stylesheet" href="css/styleTeamView.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,500i,700,800,900" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+    <div class="containerBox">
+        <header>
+            <nav class="menu">
+                <div> <a href="/index.html">Home</a><a href="/homePage/index.html">Find a solicitor</a> <a href="/GenerateSingleLink/index.html">Single Link</a> <a href="/Team-leader-/index.html">Team Leader</a> <a href="/team-view-page/index.html">Team Page</a> </div>
+                <div> <a href="#">Register</a> <a href="#">Sing in</a> </div>
+            </nav>
+        </header>
+        <header>
+            <div class="menu-icon"><span></span></div>
+            <div class="img-header"> <img src="img/logo.png" alt="Solicitor" class="solisLogo"> </div>
+        </header>
+        <div class="content" id="content">
+            <div class="shadow"></div>
+            <div class="createTeam">
+                <div class="ngdialog-close"></div>
+                <div class="solisInfo">
+                    <h1>Create a team</h1>
+                    <h2>Select the name of this new team</h2>
+                    <input type="text" placeholder="Start typing their name">
+                    <h2>Do you wish to assign<br>a team leader now?<span> (optional)</span></h2>
+                    <select required>
+                        <option value="" disabled selected hidden>Select individual solicitor</option>
+                        <option>option1</option>
+                        <option>option2</option>
+                    </select>
+                    <input type="button" value="Create">
+                </div>
+            </div>
+            <div class="assignTeamLead">
+                <div class="assign-close"></div>
+                <div class="solisInfo">
+                    <h1>Assign a team leader </h1>
+                    <h2>Select the name of the individual solicitor</h2>
+                    <select required>
+                        <option value="" disabled selected hidden>Select the name</option>
+                        <option>name1</option>
+                        <option>name2</option>
+                    </select>
+                    <h2>Select the team you wish this<br> solicitor to become the manager of</h2>
+                    <select required>
+                        <option value="" disabled selected hidden>Select the team</option>
+                        <option>team1</option>
+                        <option>team2</option>
+                    </select>
+                    <p>Can't see the team? - Please make sure you have created a team first -<a href=""> click here</a> to create a team</p>
+                    <input type="button" value="Assign">
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="chapter">
+                    <div class="text">
+                        <h1>Individual solicitors</h1><img src="img/divider.png">
+                        <a href="">
+                            <p>Switch to team view</p>
+                        </a>
+                    </div>
+                    <div class="teamSrc">
+                        <div class="mob">
+                            <a class="assignLead">
+                                <p>Assign a team leader </p>
+                            </a>
+                            <p>/</p>
+                            <a href="">
+                                <p> Assign a Team manager</p>
+                            </a>
+                            <p>/</p>
+                            <a href="">
+                                <p>Assign a Head of department</p>
+                            </a>
+                        </div>
+                        <div class="mob">
+                            <label class="add"><img src="img/ic-add.png"></label>
+                            <input type="button" value="Create a team" class="create"></div>
+                    </div>
+                </div>
+                <div class='generate'>
+                    <div class="teamChapter">
+                        <div><img src="img/ic-down.png">
+                            <h1>Team - Residential conveyancing</h1>
+                        </div>
+                        <img src="img/divider3.png" class="chapterDivider">
+                        <a href="">
+                            <p>Move a solicitor into this team</p>
+                        </a>
+                    </div>
+                    <div class="team">
+                        <div class="teamLead">
+                            <div class="sectionIcon"> <img src="img/team-leader.png"> <img src="img/ic-edit.png"> <img src="img/ic-delete.png"> </div>
+                            <div style="background-image: url(img/129888121c4b603b2deb36a7e07d05ff.png)" class="photoLead"></div>
+                            <p class="name">Jacob Devin</p>
+                            <p class="job">Housing & Property</p>
+                            <p>No of reviews collected to date <span> - 35</span></p>
+                            <p>Average rating <span> - 4.8 / 5</span></p>
+                            <p>Date of last review <span> - 21 / 02 / 2019</span></p>
+                            <p>Account activated? <span> - <span style="color: #f9b101">Expectation</span></span>
+                            </p>
+                            <p>Account type <span> - <span style="color: #00a549">Team leader</span></span>
+                            </p>
+                            <p>Assigned team? <span> - Conveyancing Team</span></p>
+                        </div>
+                        <img src="img/divider1.png" class="divider">
+                        <div class="teamAll">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/10d01cc3e1b4e89f60ae44df41ef8e59.png)" class="photoLead"></div>
+                                <p class="name">Hayden Patrick</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/d72e345d5eb3d0359d460f16a9800db2.png)" class="photoLead"></div>
+                                <p class="name">Colin Devin</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider n2">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/2323a12c833ad955547cf444806e77f1.png)" class="photoLead"></div>
+                                <p class="name">Jennifer Erin</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/add87565a1415de2a55d7382a117ff7f.png)" class="photoLead"></div>
+                                <p class="name">Megan Trinity</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider n2">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/0c925c66fab66278270839a728c63095.png)" class="photoLead"></div>
+                                <p class="name">James Jeremiah</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/08757c10c2881f595498db0bffeeeb84.png)" class="photoLead"></div>
+                                <p class="name">Jesus Ethan</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider n2">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/c9a6b80f8c1262f7bc658a0a58f5f623.png)" class="photoLead"></div>
+                                <p class="name">Maria Isabella</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/c05192dcbeccf72a2466266836ccf6ff-1.png)" class="photoLead"></div>
+                                <p class="name">Sofia Elizabeth</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='generate'>
+                    <div class="teamChapter">
+                        <div><img src="img/ic-down.png">
+                            <h1>Team - Business litigation</h1>
+                        </div>
+                        <img src="img/divider3.png" class="chapterDivider">
+                        <a href="">
+                            <p>Move a solicitor into this team</p>
+                        </a>
+                    </div>
+                    <div class="team">
+                        <div class="teamLead">
+                            <div class="sectionIcon"> <img src="img/team-leader.png"> <img src="img/ic-edit.png"> <img src="img/ic-delete.png"> </div>
+                            <div style="background-image: url(img/dcb09b315b8ebefe9714ef43e34fde4f.png)" class="photoLead"></div>
+                            <p class="name">Maya Amia</p>
+                            <p class="job">Housing & Property</p>
+                            <p>No of reviews collected to date <span> - 35</span></p>
+                            <p>Average rating <span> - 4.8 / 5</span></p>
+                            <p>Date of last review <span> - 21 / 02 / 2019</span></p>
+                            <p>Account activated? <span> - <span style="color: #f9b101">Expectation</span></span>
+                            </p>
+                            <p>Account type <span> - <span style="color: #00a549">Team leader</span></span>
+                            </p>
+                            <p>Assigned team? <span> - Conveyancing Team</span></p>
+                        </div>
+                        <img src="img/divider1.png" class="divider">
+                        <div class="teamAll">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/8417a3cc3bd6ba7c8d944a0c642a4df6.png)" class="photoLead"></div>
+                                <p class="name">Austin David</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/8153a303e67039ad7f5e8bff4a930945.png)" class="photoLead"></div>
+                                <p class="name">Aaron Lucas</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider n2">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/736f415a10d12d85036f87be75898632.png)" class="photoLead"></div>
+                                <p class="name">Lucas Jack</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/img.png)" class="photoLead"></div>
+                                <p class="name">Jesse Jayden</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider n2">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/ee0b63e3852ecded63a48d362963fbd2.png)" class="photoLead"></div>
+                                <p class="name">Morgan Amelia</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/12d0375dd77ea19e512790a33f452aab.png)" class="photoLead"></div>
+                                <p class="name">Gabriella Ariana</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider n2">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/f7b011adf9b6ee7bff3634f139cd60e1.png)" class="photoLead"></div>
+                                <p class="name">Marissa Michelle</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/d0d0a8da889ecd03977202f498dd4fbc.png)" class="photoLead"></div>
+                                <p class="name">Hailey Rachel</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='generate'>
+                    <div class="teamChapter">
+                        <div><img src="img/ic-down.png">
+                            <h1>Team - Will and Probate</h1>
+                        </div>
+                        <img src="img/divider3.png" class="chapterDivider">
+                        <a href="">
+                            <p>Move a solicitor into this team</p>
+                        </a>
+                    </div>
+                    <div class="team">
+                        <div class="teamLead">
+                            <div class="sectionIcon noLead"> <img src="img/team-leader1.png"> </div>
+                            <div style="background-image: url(img/img1.png)" class="photoLead"></div>
+
+                            <p class="notes">No head of department selected </p>
+                            <input type="button" class="assign" value="Click here to assign">
+
+                        </div>
+                        <img src="img/divider1.png" class="divider">
+                        <div class="teamAll">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/8417a3cc3bd6ba7c8d944a0c642a4df6.png)" class="photoLead"></div>
+                                <p class="name">Austin David</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/8153a303e67039ad7f5e8bff4a930945.png)" class="photoLead"></div>
+                                <p class="name">Aaron Lucas</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider n2">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/736f415a10d12d85036f87be75898632.png)" class="photoLead"></div>
+                                <p class="name">Lucas Jack</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/img.png)" class="photoLead"></div>
+                                <p class="name">Jesse Jayden</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider n2">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/ee0b63e3852ecded63a48d362963fbd2.png)" class="photoLead"></div>
+                                <p class="name">Morgan Amelia</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/img.png)" class="photoLead"></div>
+                                <p class="name">Kaitlyn Chloe</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider n2">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/f7b011adf9b6ee7bff3634f139cd60e1.png)" class="photoLead"></div>
+                                <p class="name">Marissa Michelle</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/d0d0a8da889ecd03977202f498dd4fbc.png)" class="photoLead"></div>
+                                <p class="name">Hailey Rachel</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='generate'>
+                    <div class="teamChapter">
+                        <div><img src="img/ic-down.png">
+                            <h1>All unassigned solicitors - Drag and drop these solicitors into</h1>
+                        </div>
+                        <img src="img/divider3.png" class="chapterDivider">
+                    </div>
+                    <div class="team">
+                        <div class="teamAll allUnassigned">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/ce26111d7690f4a2a45e25b5efbd0340--southport-spinal-cord.png)" class="photoLead"></div>
+                                <p class="name">Bryan Carlos</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/image.png)" class="photoLead"></div>
+                                <p class="name">Antonio Tyler</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/f26f40fef3aab3f3dfca4413b8fb477b.png)" class="photoLead"></div>
+                                <p class="name">Hailey Isabel</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/8a8d9582636e4ddc6cb08af5aa03369c.png)" class="photoLead"></div>
+                                <p class="name">Lillian Sofia</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+                            <img src="img/divider1.png" class="divider">
+                            <div class="teamInfo">
+                                <div style="background-image: url(img/NORFOLK-COMMERCIAL-PHOTOGRAPHER-2-of-10.png)" class="photoLead"></div>
+                                <p class="name">Daniel Jayden</p>
+                                <p>Account type <span> - Solicitor</span>
+                                </p>
+                                <p>Assigned team? <span> - Unassigned</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <footer id="footer">
+        <div class="footer-copy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="footer-logo"></span>
+                        ReviewSolicitors | Nicholson House | Nicholson Walk | Maidenhead | Berkshire | SL6 1LD | 0333 577 0206
+                    </div>
+                    <div class="col-sm-4 footer-rs-site-links">
+                        <a href="https://www.reviewsolicitors.ie/" target="_blank" class="footer-copy">ReviewSolicitors Ireland</a> | <a href="https://www.reviewsolicitors.com.au/" target="_blank" class="footer-copy">ReviewSolicitors Australia</a>
+                    </div>
+                    <div class="col-sm-2">
+                        <nav class="social-nav">
+                            <a href="https://www.facebook.com/reviewsolicitors/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/ReviewSolicitor" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/reviewsolicitors" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="../script.js"></script>
+</body></html>
